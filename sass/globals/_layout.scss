@@ -1,0 +1,11 @@
+$layout-breakpoint-large: 1024px;
+
+@media (min-width: $layout-breakpoint-large) {
+  .fs-border-right {
+      border-right: 8px solid #d7d7d7;
+  }
+  
+  .fs-border-left {
+      border-left: 8px solid #d7d7d7;
+  }
+}

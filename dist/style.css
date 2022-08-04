@@ -1,0 +1,53 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fs-fw-500 {
+  font-weight: 500;
+}
+
+.fs-fw-600 {
+  font-weight: 600;
+}
+
+.fs-fw-800 {
+  font-weight: 800;
+}
+
+header {
+  background-image: url("../assets/img/blue.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#contact {
+  background-image: url("../assets/img/jumpred.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fs-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 1024px) {
+  .fs-border-right {
+    border-right: 8px solid #d7d7d7;
+  }
+  .fs-border-left {
+    border-left: 8px solid #d7d7d7;
+  }
+}/*# sourceMappingURL=style.css.map */
